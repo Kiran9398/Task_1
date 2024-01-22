@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      body {
+        margin: 0%;
+        font-family: "Arial", sans-serif;
+        background-image: linear-gradient(
+          to right,
+          rgba(236, 228, 140, 0.773),
+          rgb(242, 161, 185)
+        );
+      }
+
+      nav {
+        background-color: #f17474;
+        color: black;
+        padding: 15px 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .logo img {
+        height: 35px;
+        width: auto;
+      }
+
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+      }
+
+      li {
+        margin-right: 50px;
+      }
+
+      a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+        font-size: 16px;
+      }
+
+      a:hover {
+        color: #ffcc00;
+      }
+
+      .home-card {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .home-page-img {
+        width: 600px;
+        height: 665px;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      .item-details-page {
+        padding-left: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 600px;
+      }
+
+      .item-details-page h1 {
+        margin-bottom: 15px;
+        font-size: 35px;
+      }
+
+      .item-details-page p {
+        margin-bottom: 25px;
+        font-size: 16px;
+        line-height: 1.8;
+      }
+
+      .item-details-page button {
+        width: 150px;
+        padding: 10px;
+        background-color: #f17474;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+
+      .item-details-page button:hover {
+        background-color: black;
+      }
+      @media screen and (max-width: 768px) {
+        nav {
+          padding: 10px;
+        }
+
+        .home-card {
+          flex-direction: column;
+        }
+
+        .home-page-img {
+          width: 100%;
+          height: auto;
+          border-radius: 0;
+        }
+
+        .item-details-page {
+          padding-left: 20px;
+          padding-right: 20px;
+          max-width: none;
+        }
+
+        .item-details-page h1 {
+          font-size: 28px;
+          margin-bottom: 10px;
+        }
+
+        .item-details-page p {
+          font-size: 14px;
+          margin-bottom: 15px;
+        }
+      }
+
+      @media screen and (max-width: 480px) {
+        .item-details-page {
+          padding-left: 10px;
+          padding-right: 10px;
+        }
+
+        .item-details-page h1 {
+          font-size: 24px;
+          margin-bottom: 8px;
+        }
+
+        .item-details-page p {
+          font-size: 12px;
+          margin-bottom: 10px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#food">Food</a></li>
+          <li><a href="#restaurant">Restaurant</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <div class="logo">
+          <img src="D:\task\images\image4.png" alt="Restaurant Logo" />
+        </div>
+      </nav>
+
+      <div class="home-card">
+        <div class="item-details-page">
+          <h1>LOREM IPSUM</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus id
+            est vitae dolor rhoncus tristique. Maecenas metus quam, rhoncus
+            euismod lorem in, sollicitudin viverra eros. Donec dictum luctus
+            quam ut tristique. Curabitur nec faucibus purus. Quisque congue sem
+            nec justo mollis, in tincidunt erat pretium. Sed pulvinar, massa ac
+            porta viverra.
+          </p>
+          <a href="index2.html"><button>Click Me</button></a>
+        </div>
+
+        <div>
+          <img src="D:\task\images\image1.png" class="home-page-img" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0%;
+        font-family: "Arial", sans-serif;
+        background-image: linear-gradient(
+          to right,
+          rgba(236, 228, 140, 0.773),
+          rgb(242, 161, 185)
+        );
+      }
+      .second-page-container {
+        display: flex;
+        justify-content: center;
+        padding: 10%;
+      }
+
+      .second-container-images {
+        display: flex;
+      }
+      .img1 {
+        display: block;
+        height: 250px;
+        width: 250px;
+        margin-right: 17px;
+        margin-bottom: 10px;
+      }
+      .img2 {
+        height: 250px;
+        width: 250px;
+        margin-right: 17px;
+      }
+      .img3 {
+        height: 510px;
+        width: 250px;
+      }
+      .second-page-des {
+        background-color: #f17474;
+        height: 10%;
+        margin-top: 200px;
+        margin-left: 30px;
+        padding: 20px;
+      }
+      .second-page-des h5 {
+        font-weight: 400;
+      }
+      .second-page-des h1 {
+        font-weight: 600;
+      }
+      .second-page-des a {
+        text-decoration: none;
+        color: black;
+        font-size: 14px;
+      }
+      .arrow-symbol {
+        height: 12px;
+      }
+
+      @media screen and (max-width: 768px) {
+    .img1,
+    .img2,
+    .img3 {
+        width: 100%;
+    }
+}
+    </style>
+  </head>
+  <body>
+    <div class="second-page-container">
+      <div class="second-container-images">
+        <div>
+          <img src="D:\task\images\image5.png" class="img1" />
+          <img src="D:\task\images\image3.png" class="img2" />
+        </div>
+
+        <div>
+          <img src="D:\task\images\image1.png" class="img3" />
+        </div>
+      </div>
+
+      <div class="second-page-des">
+        <h5>LOREM IPSUM</h5>
+        <h1>LOREM IPSUM SET ADEMIR</h1>
+        <a href=""
+          >Click <img src="D:\task\images\image2.png" class="arrow-symbol"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
